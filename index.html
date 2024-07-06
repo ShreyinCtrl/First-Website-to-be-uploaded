@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial scale=1.0">
+    <title>Lets Go</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 class="logo">UTTARAKHAND</h1>
+        <u1 class="nav-link">
+            <li class="ctn" class="Active"><a href="#"></a>Home</li>
+            <li class="ctn"><a href="#"></a>Tours</li>
+            <li class="ctn"><a href="#"></a>Explore</li>
+            <li class="ctn"><a href="#"></a>About</li>
+            <li class="ctn"><a href="#"></a>Contacts</li>
+        </u1>
+        <img src="./menu button.jpg" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>EXPLORE THE UNEXPLORED</h2>
+            <div class="" line></div>
+            <h1>DISCOVER UTTARAKHAND</h1>
+            <a href="#" class="ctn">Learn more</a>
+        </div>
+    </header>
+
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img1.jpg" alt="">
+                <h4>Valley of Flower</h4>
+                <p>The valley is believed to have been discovered in 1931, when three British mountaineers – led by
+                    Frank S Smythe – lost their way and chanced upon this spectacular valley. Attracted by the beauty of
+                    this place they named it the “Valley of Flowers”.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./img2.jpg" alt="">
+                <h4>Bajinath Temple</h4>
+                <p>When the Katyuri kings shifted their capital from Joshimath to Kartikeyapura, a large number of
+                    followers of estoric shaiva sects like the Lakulisha, Nath (Kanphata), Jangam, Vairagi, Sanyasi also
+                    followed them. In order to rehabilitate them, The katyuris built a large complex of temples
+                    dedicated to Vaidyanath Shiva, the name later got corrupted to Baijnath.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <script>
+        const menubtn = document.querySelector('.menu-btn')
+        const navlink = document.querySelector('.nav-link')
+
+        menubtn.addEventListener('click', () => { navlink.classList.toggle('mobile-menu') })
+    </script>
+</body>
+
+</html>
